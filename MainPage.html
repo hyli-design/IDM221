@@ -3,11 +3,10 @@
     <head>
         <title>Haoyu li Design</title>
         <style>
-            .cover-container {
-    background-color: transparent;
-    text-decoration: none;
+            * {
+  box-sizing: border-box;
 }
-.works-name {
+    .works-name {
     position: static;
     margin-top: 10px;
     opacity: 1;
@@ -15,6 +14,18 @@
     line-height: 16px;
     text-align: left;
     letter-spacing: .6px;
+    left: 0;
+    top: 50%;
+    right: 0;
+    z-index: 100;
+    display: block;
+    float: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: Montserrat,sans-serif;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .works-time {
     position: static;
@@ -26,12 +37,22 @@
     font-size: 12px;
     line-height: 16px;
     text-align: left;
+    left: 0;
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    display: block;
+    font-family: Montserrat,sans-serif;
+    color: #585858;
+        font-style: italic;
+    font-weight: 400;
 }
+
 
         </style>
     </head>
     <body>
-        <a href="Domastic.html" class="link-block-9 w-inline-block" data-ix="show-items" style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 750ms ease 0s, transform 450ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;">
+        <a href="Domastic.html" class="link-block-9 w-inline-block">
             <div id="work" class="section-2 wf-section">
                 <div role="list" class="masonry w-dyn-items w-row" style="position: relative; height: 3664.81px;">
                     <div role="listitem" class="masonry-item w-clearfix w-dyn-item w-col-4" style="position: absolute; left: 0px; top: 0px;">
@@ -42,6 +63,7 @@
             </div>
         </a>
     </body>
+    
     <footer class="fotter wf-section"> 
         <div class="footer-line"></div>
         <div class="footer-text">"Designed and partly Coded with ❤️ and ☕️  © 2021, Guorong Luo, All Rights Reserved."</div>
